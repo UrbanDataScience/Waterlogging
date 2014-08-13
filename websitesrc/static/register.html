@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link href="/site_media/css/register.css" rel="stylesheet">
+    <title>注册</title>
+</head>
+
+<body>
+        <div class="container">
+
+      <form class="form-signin" method="post" action="/register/" role="form">
+        <h2 class="form-signin-heading">请填入个人信息</h2>
+        <input type="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+        <input class="form-control" name="name" placeholder="Name" required>
+        <input class="form-control" name="city" placeholder="City" required>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block" id="submit" type="submit">Sign in</button>
+      </form>
+
+    </div> <!-- /container -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#submit').on('click', submit);
+        });
+        function submit(){
+
+        }
+    </script>
+</body>
+</html>

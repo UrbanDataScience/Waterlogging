@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.form-signin {
+    width: 400px;
+}
+.container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-control {
+    margin-bottom: 10px;
+}
